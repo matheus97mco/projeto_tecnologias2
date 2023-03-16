@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+</head>
+
+<body>
+
+    <h1>Calculadora</h1>
+
+    <form action="calc.php" method="post">
+
+        <p>
+            <label for="operacao">Escolha uma operação: </label>
+            <select name="calculo">
+                <option value="soma">Soma</option>
+                <option value="sub">Subtração</option>
+                <option value="mult">Multiplicação</option>
+                <option value="div">Divisão</option>
+            </select>
+        </p>
+
+        <p>Digite dois numeros para a execução do calculo: </p>
+        <p>
+            <label for="numero1"></label>
+            <input type="number" name="num1" placeholder="Digite um numero">
+        </p>
+
+
+        <p>
+            <label for="numero2"></label>
+            <input type="number" name="num2" placeholder="Digite um numero">
+        </p>
+
+        <p>
+            <input type="submit" value="Calcular" >
+            <input type="reset" value="Limpar">
+        </p>
+        
+
+    </form>
+
+</body>
+
+
+</html>
