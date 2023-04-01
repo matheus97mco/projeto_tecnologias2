@@ -13,3 +13,4 @@ if (empty($nome) || empty($email) || empty($senha)) {
     echo "<p>Senha: *****</p>";
     echo "<h4>CADASTRO FEITO COM SUCESSO!</h4";
 }
+
